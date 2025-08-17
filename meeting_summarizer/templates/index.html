@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Meeting Summarizer</title>
+</head>
+<body>
+    <h1>AI Meeting Notes Summarizer</h1>
+    <textarea id="transcript" rows="10" cols="80" placeholder="Paste meeting transcript here..."></textarea><br><br>
+    <input type="text" id="prompt" size="80" placeholder="Custom instruction (e.g., bullet points, action items)"><br><br>
+    <button onclick="generateSummary()">Generate Summary</button><br><br>
+
+    <textarea id="summary" rows="10" cols="80" placeholder="Summary will appear here..."></textarea><br><br>
+
+    <input type="text" id="recipients" size="80" placeholder="Recipient emails, comma separated"><br><br>
+    <button onclick="sendEmail()">Send Summary via Email</button>
+
+    <p id="status"></p>
+    <script src="/static/script.js"></script>
+</body>
+</html>
