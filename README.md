@@ -16,11 +16,11 @@ The project demonstrates the **end-to-end workflow** of an AI application — fr
 
 ## Key Features
 
-✅ AI-based text summarization
-✅ Clean and simple web interface
-✅ Extracts important points from long meeting transcripts
-✅ Reduces manual documentation effort
-✅ Fully deployed and accessible via web
+ AI-based text summarization
+ Clean and simple web interface
+ Extracts important points from long meeting transcripts
+ Reduces manual documentation effort
+ Fully deployed and accessible via web
 
 ---
 
@@ -99,4 +99,5 @@ Deployment highlights:
 GitHub: Pavani-Chiratanagandla
 
 ---
+
 
